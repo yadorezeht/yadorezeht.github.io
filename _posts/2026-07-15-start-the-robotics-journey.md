@@ -4,7 +4,7 @@ title: "Start with the Robotics Hacking Journey"
 date: 2026-07-15 16:43:10
 category: robo
 ---
-How I got interested in this? Well, I was applying for a reverse engineering role in a certain company and the interviewer informed me that they are getting into robotics. Finding an RE job here in Philippines is quite hard so I just kept applying for positions that has RE in them but this specific interview, although I did not pass the interview, it spark something inside me and it got me searching and interested in Robotics Hacking.
+How I got interested in this? Well, I was applying for a reverse engineering role in a certain company and the interviewer informed me that they are getting into robotics. Finding an RE job here in Philippines is quite hard so I just kept applying for positions that has RE in them but this specific interview, it spark something inside me and it got me searching and interested in Robotics Hacking.
 
 So, how do I begin with it? I asked claude. To be honest, I'm having doubts because a robot??? How do I test that and oh, before the test part how do I freaking acquire a robot, that's sounds expensive. So, instead of just giving up, I just directly ask Claude to give me resources and how do I begin. So while discussing with Claude some alternatives, he suggest me a robot arm and some expensive stuff but the good thing about Claude is that, you tell him you're poor and he will suggest an alternative and that's where we decided to start with ROS2 on Ubuntu VM.
 
