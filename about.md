@@ -22,7 +22,7 @@ permalink: /about/
   <div class="nf-row"><span class="nf-key">OSCP</span><span class="nf-dots"></span><span class="nf-val">Offensive Security Certified Professional</span></div>
 
   <div class="nf-head">Contact</div>
-  <div class="nf-row"><span class="nf-key">X</span><span class="nf-dots"></span><span class="nf-val"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">@{{ site.linkedin_username }}</a></span></div>
+  <div class="nf-row"><span class="nf-key">LinkedIn</span><span class="nf-dots"></span><span class="nf-val"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">@{{ site.linkedin_username }}</a></span></div>
   <div class="nf-row"><span class="nf-key">GitHub</span><span class="nf-dots"></span><span class="nf-val"><a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a></span></div>
   <div class="nf-row"><span class="nf-key">X</span><span class="nf-dots"></span><span class="nf-val"><a href="https://x.com/{{ site.x_username }}">@{{ site.x_username }}</a></span></div>
 </div>
