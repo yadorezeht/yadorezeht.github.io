@@ -7,7 +7,7 @@ permalink: /about/
 
 <div class="neofetch">
 <div class="nf-info">
-  <div class="nf-title">YadoreZ<span class="at">@RE</span> ─────────────────────</div>
+  <div class="nf-title">YadoreZ<span class="at"></span> ─────────────────────</div>
   <div class="nf-row"><span class="nf-key">Role</span><span class="nf-dots"></span><span class="nf-val">Reverse Engineer</span></div>
   <div class="nf-row"><span class="nf-key">Focus</span><span class="nf-dots"></span><span class="nf-val">Game Hacking/Anti-Cheat · Physical AI/Robotics</span></div>
   <div class="nf-row"><span class="nf-key">Based</span><span class="nf-dots"></span><span class="nf-val">Philippines</span></div>

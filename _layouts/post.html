@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign cat = page.category | default: page.categories.first | default: page.tags.first | default: "note" | downcase -%}
+{%- assign cat = page.category | default: page.categories.first | default: page.tags.first | default: "MISC" | downcase -%}
 {%- case cat -%}
   {%- when "re","crackme","reversing","malware" -%}{% assign tc="tag--re" %}{% assign tl="RE" %}
   {%- when "gamehacking","gh","game-hacking" -%}{% assign tc="tag--gh" %}{% assign tl="GH" %}

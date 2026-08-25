@@ -1,11 +1,11 @@
-{%- assign cat = include.post.category | default: include.post.categories.first | default: include.post.tags.first | default: "note" | downcase -%}
+{%- assign cat = include.post.category | default: include.post.categories.first | default: include.post.tags.first | default: "MISC" | downcase -%}
 {%- case cat -%}
   {%- when "re","crackme","reversing","malware" -%}{% assign tc="tag--re" %}{% assign tl="RE" %}{% assign fc="re" %}
   {%- when "gamehacking","gh","game-hacking" -%}{% assign tc="tag--gh" %}{% assign tl="GH" %}{% assign fc="gh" %}
   {%- when "cert","certification" -%}{% assign tc="tag--cert" %}{% assign tl="CERT" %}{% assign fc="cert" %}
   {%- when "robotics","robo" -%}{% assign tc="tag--robo" %}{% assign tl="ROBO" %}{% assign fc="robotics" %}
   {%- when "life" -%}{% assign tc="tag--life" %}{% assign tl="LIFE" %}{% assign fc="life" %}
-  {%- else -%}{% assign tc="tag--life" %}{% assign tl=cat | upcase %}{% assign fc="note" %}
+  {%- else -%}{% assign tc="tag--life" %}{% assign tl=cat | upcase %}{% assign fc="MISC" %}
 {%- endcase -%}
 <a class="entry" href="{{ include.post.url | relative_url }}" data-cat="{{ fc }}">
   <span class="entry__date">{{ include.post.date | date: "%Y-%m-%d" }}</span>
