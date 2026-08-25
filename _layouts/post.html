@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-{%- assign cat = page.category | default: page.categories.first | default: page.tags.first | default: "MISC" | downcase -%}
+{%- assign cat = page.category | default: page.categories.first | default: page.tags.first | default: "misc" | upcase -%}
 {%- case cat -%}
   {%- when "re","crackme","reversing","malware" -%}{% assign tc="tag--re" %}{% assign tl="RE" %}
-  {%- when "gamehacking","gh","game-hacking" -%}{% assign tc="tag--gh" %}{% assign tl="GH" %}
   {%- when "cert","certification" -%}{% assign tc="tag--cert" %}{% assign tl="CERT" %}
   {%- when "robotics","robo" -%}{% assign tc="tag--robo" %}{% assign tl="ROBO" %}
-  {%- when "life" -%}{% assign tc="tag--life" %}{% assign tl="LIFE" %}
-  {%- else -%}{% assign tc="tag--life" %}{% assign tl=cat | upcase %}
+  {%- else -%}{% assign tc="tag--misc" %}{% assign tl=cat | upcase %}
 {%- endcase -%}
 <article>
   <header class="post-header">
