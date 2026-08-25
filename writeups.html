@@ -7,10 +7,9 @@ permalink: /writeups/
 <div class="filters" role="group" aria-label="Filter by category">
   <button class="filter" data-filter="all" aria-pressed="true">all</button>
   <button class="filter" data-filter="re" aria-pressed="false">[RE]</button>
-  <button class="filter" data-filter="gh" aria-pressed="false">[GH]</button>
   <button class="filter" data-filter="cert" aria-pressed="false">[CERT]</button>
   <button class="filter" data-filter="robotics" aria-pressed="false">[ROBO]</button>
-  <button class="filter" data-filter="life" aria-pressed="false">notes</button>
+  <button class="filter" data-filter="life" aria-pressed="false">[MISC]</button>
 </div>
 <div class="entries" id="entry-list">
   {%- for post in site.posts -%}{%- include entry.html post=post -%}{%- endfor -%}

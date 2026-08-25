@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign cat = page.category | default: page.categories.first | default: page.tags.first | default: "misc" | upcase -%}
+{%- assign cat = page.category | default: page.categories.first | default: page.tags.first | default: "misc" | downcase -%}
 {%- case cat -%}
   {%- when "re","crackme","reversing","malware" -%}{% assign tc="tag--re" %}{% assign tl="RE" %}
   {%- when "cert","certification" -%}{% assign tc="tag--cert" %}{% assign tl="CERT" %}

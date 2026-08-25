@@ -1,4 +1,4 @@
-{%- assign cat = include.post.category | default: include.post.categories.first | default: include.post.tags.first | default: "misc" | upcase -%}
+{%- assign cat = include.post.category | default: include.post.categories.first | default: include.post.tags.first | default: "misc" | downcase -%}
 {%- case cat -%}
   {%- when "re","crackme","reversing","malware" -%}{% assign tc="tag--re" %}{% assign tl="RE" %}{% assign fc="re" %}
   {%- when "cert","certification" -%}{% assign tc="tag--cert" %}{% assign tl="CERT" %}{% assign fc="cert" %}
