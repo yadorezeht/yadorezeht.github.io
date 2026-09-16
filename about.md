@@ -9,10 +9,10 @@ permalink: /about/
 <div class="nf-info">
   <div class="nf-title">YadoreZ<span class="at"></span> ─────────────────────</div>
   <div class="nf-row"><span class="nf-key">Role</span><span class="nf-dots"></span><span class="nf-val">Reverse Engineer</span></div>
-  <div class="nf-row"><span class="nf-key">Focus</span><span class="nf-dots"></span><span class="nf-val">Game Hacking/Anti-Cheat · Physical AI/Robotics</span></div>
+  <div class="nf-row"><span class="nf-key">Focus</span><span class="nf-dots"></span><span class="nf-val">Robotics/Robotics Hacking · Reverse Engineering</span></div>
   <div class="nf-row"><span class="nf-key">Based</span><span class="nf-dots"></span><span class="nf-val">Philippines</span></div>
-  <div class="nf-row"><span class="nf-key">Tools</span><span class="nf-dots"></span><span class="nf-val">Ghidra · x64dbg · BurpSuite </span></div>
-  <div class="nf-row"><span class="nf-key">Learning</span><span class="nf-dots"></span><span class="nf-val">Physical AI/Robotics Hacking · AI Security</span></div>
+  <!-- <div class="nf-row"><span class="nf-key">Tools</span><span class="nf-dots"></span><span class="nf-val">Ghidra · x64dbg · BurpSuite </span></div> -->
+  <div class="nf-row"><span class="nf-key">Learning</span><span class="nf-dots"></span><span class="nf-val">Robotics/Robotics Hacking · AI Security</span></div>
 
   <div class="nf-head">Certs</div>
   <div class="nf-row"><span class="nf-key">GREM</span><span class="nf-dots"></span><span class="nf-val">GIAC Reverse Engineering Malware</span></div>
