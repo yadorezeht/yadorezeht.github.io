@@ -7,7 +7,7 @@ permalink: /about/
 
 <div class="neofetch">
 <div class="nf-info">
-  <div class="nf-title">YadoreZ<span class="at">ROBO</span> ─────────────────────</div>
+  <div class="nf-title">$<span class="at">YadoreZ</span> ─────────────────────</div>
   <div class="nf-row"><span class="nf-key">Role</span><span class="nf-dots"></span><span class="nf-val">Reverse Engineer</span></div>
   <div class="nf-row"><span class="nf-key">Focus</span><span class="nf-dots"></span><span class="nf-val">Robotics/Robotics Hacking · Reverse Engineering</span></div>
   <div class="nf-row"><span class="nf-key">Based</span><span class="nf-dots"></span><span class="nf-val">Philippines</span></div>
